@@ -1,0 +1,186 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Optional: if you want to disable scrolling */
+}
+
+.instrucciones {
+    background-color: rgb(58, 23, 23);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .instrucciones .div {
+    background-color: rgba(255, 255, 255, 1);
+    background: linear-gradient(180deg, rgb(228, 230, 239) 0%, rgb(252.88, 252.88, 252.88) 68.23%);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .instrucciones .overlap {
+    position: absolute;
+    width: 70rem;
+    min-height: 60rem;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+  
+  .instrucciones .vector {
+    min-height: 60rem;
+    width: 70rem;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+  
+  .instrucciones .group {
+    position: relative;
+    width: 34.938rem;
+    height: 27.313rem;
+    top: 22%;
+    left: 5.375rem;
+  }
+  
+  .instrucciones .overlap-group {
+    position: relative;
+    width: 35.563rem;
+    height: 27.313rem;
+  }
+  
+  .instrucciones .group-2 {
+    position: absolute;
+    width: 50rem;
+  }
+  
+  .instrucciones .sub-total-copy {
+    width: 29.75rem;
+    top: 0;
+    left: 0;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #4301b0;
+    font-size: 3rem;
+    line-height: 3.256rem;
+    position: relative;
+    letter-spacing: 0;
+  }
+
+  .instrucciones .p {
+    width: 33.25rem;
+    top: 9.188rem;
+    left: 1.625rem;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--neutraldark-03);
+    font-size: 1.669rem;
+    line-height: 2.506rem;
+    position: absolute;
+    letter-spacing: 0;
+  }
+  
+  /* Instrucciones */
+  .instruccion_1{
+    margin-top: 2rem;
+    position: relative;
+    width: 50rem;
+  }
+
+  .instrucciones .text-wrapper {
+    margin-left: 2.2rem;
+    margin-top: 0;
+    width: 49rem;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--neutraldark-03);
+    font-size: 2rem;
+    letter-spacing: 0;
+    line-height: 2.506rem;
+  }
+  
+  .instrucciones .ellipse {
+    position: relative;
+    top: 1.6rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    left: 0;
+    background-color: #85779c;
+    border-radius: 20rem;
+  }
+
+  /* Instrucciones FIN */
+
+  /* Imagen de boton A jugar */
+  .instrucciones .img {
+    position: absolute;
+    width: 21.063rem;
+    height: 7.875rem;
+    top: 46%;
+    left: 75%;
+    opacity: .75;
+    transition: opacity .3s;
+    background-size: 100%;
+  }
+
+  .instrucciones .img:hover {
+    position: absolute;
+    width: 21.063rem;
+    height: 7.875rem;
+    opacity: 1;
+    top: 46%;
+    left: 75%;
+    transition: background-image .1s;
+  }
+  
+  /* Imagen de boton A jugar FIN*/
+
+  .instrucciones .group-wrapper {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 16.438rem;
+    height: 4.813rem;
+    background-size: 100% 100%;
+    background-image: url("Sources/elementos/Ellipse\ 16.png");
+    z-index: 1000; 
+  }
+
+  .instrucciones .group-3 {
+    position: relative;
+    width: 8.25rem;
+    height: 2.125rem;
+    top: 1.875rem;
+    left: 5.813rem;
+  }
+  
+  .instrucciones .logo {
+    position: absolute;
+    width: 2.125rem;
+    height: 2.125rem;
+    top: 0;
+    left: 6rem;
+    object-fit: cover;
+  }
+  
+  .instrucciones .text-wrapper-2 {
+    position: absolute;
+    width: 6rem;
+    top: .5rem;
+    left: 0;
+    background-image: url("Sources/elementos/Ellipse\ 16.png");
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 1.5rem;
+    white-space: nowrap;
+  }
+  
